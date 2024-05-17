@@ -1,0 +1,30 @@
+header
+{
+    position: fixed;
+    width: 100%;
+    left: 0;
+
+}
+
+.listanav
+{
+    
+    background-color: #8b0500;
+    display: flex;
+  justify-content:center;
+}
+
+.listanav li
+{
+    font-size: 24px;
+    margin: 1rem;
+    color: aliceblue
+}
+
+@media(max-width:760px)
+{
+      header
+      {
+        display: none;
+      }
+}
